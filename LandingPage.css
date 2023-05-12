@@ -1,0 +1,298 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+
+.headerbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    text-decoration: none;
+    
+}
+
+.leftheaderbarcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 8%;
+}
+
+.logocontainer{
+    margin: 0.7em 0 0.7em 2.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 8.8em;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.logoimagecontainer {
+    display: flex;
+    align-items: center;
+    margin-right: 0.5em;
+}
+
+.logo {
+    width: 4em;
+}
+
+.logoname {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+}
+
+.rightheadercontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rightbarpanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    position: relative;
+    width: 27em;
+    margin-right: 2.5vw;
+}
+
+.seperator{
+    width: 10%;
+    
+}
+
+.content {
+    text-decoration: none;
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    background-image: url(Pictures/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.background1{
+    width: 100%;
+    height: 100%;
+    background-image: url(Pictures/background1.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.descriptionsection{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.descriptionholder{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10%;
+    margin-right: 60%;
+    border: 2px solid rgba(128, 128, 128, 0);
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.296);
+}
+
+.descriptiontitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.title{
+    width: fit-content;
+    word-spacing: 0.1em;
+    color: red;
+}
+
+.instructions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3em;
+    text-align: center;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.deviderholder{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    height: 35%;
+    border: 0px solid;
+    background-color: rosybrown;
+    
+}
+
+.weaponholder{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.stoneholder{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    border-radius: 100%;
+    align-self: flex-start;
+    margin-right: 5em;
+}
+
+.stone{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stoneimage{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-left: 4px;
+}
+
+.paperholder{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    border-radius: 100%;
+    align-self: center;
+}
+
+.paperimage{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.paper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scissorholder{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    border-radius: 100%;
+    align-self: center;
+    margin-left: 5em;
+}
+
+.scissorimage{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.scissor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.endgame{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.proverbholder{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.proverb{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.lowerbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    height:30%;
+    border: 0px solid;
+    background-color: rosybrown;
+}
+
+.battlefieldstripe{
+    width: 100%;
+    height: 15%;
+    background-color: aquamarine;
+
+}
+
+
